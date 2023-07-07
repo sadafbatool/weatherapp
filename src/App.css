@@ -56,7 +56,8 @@
   font-size: 25px;
   background-repeat: no-repeat;
   background-size: auto;
-  background-size: 1200px 1200px;
+  background-size: 100%;
+  width: 100%;
 }
 .input-icons {
   margin-top: 22px;
