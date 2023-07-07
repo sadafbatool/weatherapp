@@ -51,13 +51,11 @@
 }
 .GeeksForGeeks {
   background-image: url("https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg");
-  height: 112.2vh;
-  margin-top: -70px;
-  font-size: 25px;
   background-repeat: no-repeat;
-  background-size: auto;
   background-size: 100%;
-  width: 100%;
+  font-size: 25px;
+  height: 100vh;
+  background-size: cover;
 }
 .input-icons {
   margin-top: 22px;
