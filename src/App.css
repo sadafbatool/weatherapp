@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.weather {
+  background-color: rgb(110, 108, 241);
+
+  text-align: center;
+}
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.bolder {
+  font-weight: bolder;
+}
+.GeeksForGeeks {
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg");
+  height: 112.2vh;
+  margin-top: -70px;
+  font-size: 25px;
+}
+.input-icons {
+  margin-top: 22px;
+  cursor: pointer;
+}
