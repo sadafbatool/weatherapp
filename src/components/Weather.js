@@ -17,8 +17,6 @@ function Weather() {
   const getGeoLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((location) => {
-        console.log("locat,", location);
-
         const url = `https://api.openweathermap.org/data/2.5/weather?lat=${location.coords.latitude}&lon=${location.coords.longitude}&units=metric&appid=${apiKey}`;
         axios.get(url).then((res) => setData(res.data));
       });
@@ -29,7 +27,7 @@ function Weather() {
 
   const handleClick = () => {
     if (name !== "") {
-      const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${name}&appid=${apiKey}
+      const apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${name}&appid=${apiKey}
       `;
       axios
         .get(apiUrl)
@@ -42,7 +40,6 @@ function Weather() {
     }
   };
 
-  console.log(data);
   return (
     <div className="weather GeeksForGeeks">
       <br />
